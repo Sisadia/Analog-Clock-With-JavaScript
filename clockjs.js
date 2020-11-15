@@ -1,5 +1,11 @@
 setInterval(setClock,1000) //ekta interval set kora hoise and prottek 1000ms por por ei function ta call kora hobe.
 
+const hourHand = document.querySelector('[data-hour-hand]')
+const minuteHand = document.querySelector('[data-minute-hand]')
+const secondHand = document.querySelector('[data-second-hand]')
+
+
+
 //function define, ei function ta current date get korbe.
 function setClock() {
     const currentDate = new Date()
